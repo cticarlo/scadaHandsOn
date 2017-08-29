@@ -1,0 +1,14 @@
+Tanque - Mapa de tags modbus
+
+1 - Liga/Desliga Bomba de entrada (1/0)
+2 - Vazão da bomba (0-1000l/h) 
+3 - Nível do tanque (0-1000l; inicial: 750l)
+4 - Abra/Fecha válvula solenoide (1/0)
+5 - Real vazão da entrada (0-1000l/h): somente leitura
+
+Parâmetros de comunicação:
+
+Endereço Slave Modbus: 1
+Velocidade: 9600bps
+Porta COM: ???
+Verificação: 8 bits, sem paridade, 1 stop bit
